@@ -1,36 +1,39 @@
-Cryptocurrency Price Prediction with LSTM
+# Cryptocurrency Price Prediction with LSTM
 
 This project uses an LSTM (Long Short-Term Memory) model to predict cryptocurrency prices.
 
-Key Features:
+## Note:
+ - This project is currently getting reworked with the API key getting changed over
 
-    Fetches cryptocurrency data from the CoinMarketCap API
-    Normalizes the dataset using MinMaxScaler
-    Splits the dataset into training and testing sets
-    Builds an LSTM model with PyTorch
-    Trains the model using mean squared error (MSE) loss
-    Evaluates the model's performance using root mean squared error (RMSE)
-    Visualizes the actual vs. predicted prices
+## Key Features:
 
-Prerequisites:
+- Fetches cryptocurrency data from the CoinMarketCap API
+- Normalizes the dataset using MinMaxScaler
+- Splits the dataset into training and testing sets
+- Builds an LSTM model with PyTorch
+- Trains the model using mean squared error (MSE) loss
+- Evaluates the model's performance using root mean squared error (RMSE)
+- Visualizes the actual vs. predicted prices
 
-    Python 3.x
-    Required libraries: requests, pandas, numpy, matplotlib, sklearn, torch
-    A CoinMarketCap API key (replace YOUR_API_KEY in the code)
+## Prerequisites:
 
-Instructions:
+- Python 3.x
+- Required libraries: requests, pandas, numpy, matplotlib, sklearn, torch
+- A CoinMarketCap API key (replace YOUR_API_KEY in the code)
 
-    Clone or download this repository.
-    Install the required libraries: pip install -r requirements.txt
-    Replace YOUR_API_KEY in the code with your actual CoinMarketCap API key.
-    Run the Python script: python main.py
+## Instructions:
 
-Output:
+1. Clone or download this repository.
+2. Install the required libraries: `pip install -r requirements.txt`
+3. Replace YOUR_API_KEY in the code with your actual CoinMarketCap API key.
+4. Run the Python script: `python main.py`
 
-    The script will print the training loss and RMSE for each epoch.
-    It will also generate a plot comparing the actual vs. predicted prices.
+## Output:
 
-Additional Notes:
+- The script will print the training loss and RMSE for each epoch.
+- It will also generate a plot comparing the actual vs. predicted prices.
 
-    The current model is designed for Bitcoin (BTC) predictions. You can modify the crypto_symbol variable to predict prices for other cryptocurrencies.
-    The model uses a simple dataset for demonstration purposes. Consider using more extensive historical data for real-world applications.
+## Additional Notes:
+
+- The current model is designed for Bitcoin (BTC) predictions. You can modify the crypto_symbol variable to predict prices for other cryptocurrencies.
+- The model uses a simple dataset for demonstration purposes. Consider using more extensive historical data for real-world applications.
