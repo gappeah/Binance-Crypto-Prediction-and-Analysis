@@ -7,7 +7,11 @@ This project demonstrates how to connect to the Binance API, retrieve real-time 
 Before running this project, ensure you have the following installed:
 
 - Python 3.x
+- Anaconda
 - Binance account (to obtain API key and secret)
+- Jupyter Notebook
+- Note: if you are having difficulties with installing Jupytyer Notebook on Visual Code Studio I recommend you watch [this video](https://www.youtube.com/watch?v=h1sAzPojKMg) which explains how to set up Jupytyer Notebook and Anaconda in less than 4 minutes.
+
 
 ## Installation
 
@@ -20,7 +24,7 @@ git clone https://github.com/gappeah/Binance-Crypto-Prediction-and-Analysis.git
 2. Navigate to the project directory:
 
 ```
-cd binance-prediction
+cd Binance-Crypto-Prediction-and-Analysis
 ```
 
 3. Install the required Python packages:
@@ -68,6 +72,5 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 - [mplfinance](https://github.com/matplotlib/mplfinance) - Financial data visualization library for Python
 - [TensorFlow](https://www.tensorflow.org/) - Open-source machine learning framework
 - [Keras](https://keras.io/) - High-level neural networks API
+- [Anaconda](https://www.anaconda.com/) - Distribution of the Python and R 
 ```
-
-This README file provides an overview of the project, installation instructions, usage guidelines, file structure, contributing information, license details, and acknowledgments. Feel free to modify it according to your specific project requirements.
