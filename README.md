@@ -1,6 +1,10 @@
 # Binance Crypto Prediction and Analysis
 
 This project demonstrates how to connect to the Binance API, retrieve real-time data for Bitcoin (BTC) and Ethereum (ETH), perform data preprocessing and visualization, and create a predictive model using Long Short-Term Memory (LSTM) neural networks. [Based on this tutorial](https://heartbeat.comet.ml/analyzing-and-creating-a-predictive-model-for-binance-data-69171dbd5bec "Based on this tutorial")
+![output_1](https://github.com/user-attachments/assets/61a5e7c6-5240-4ad2-959d-2aa712490aa5)
+![output_2](https://github.com/user-attachments/assets/d06e7cab-9fe7-4961-8314-08b07bfb9207)
+![output](https://github.com/user-attachments/assets/6e18ff07-a8a2-4486-872e-1a8af86f3d21)
+
 
 ## Prerequisites
 
