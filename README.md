@@ -76,5 +76,6 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 - [mplfinance](https://github.com/matplotlib/mplfinance) - Financial data visualization library for Python
 - [TensorFlow](https://www.tensorflow.org/) - Open-source machine learning framework
 - [Keras](https://keras.io/) - High-level neural networks API
-- [Anaconda](https://www.anaconda.com/) - Distribution of the Python and R 
-```
+- [Anaconda](https://www.anaconda.com/) - Distribution of the Python and R
+- [NumPy](https://numpy.org/) -  A library that adds support for large, multi-dimensional arrays and matrices
+- [Pandas](https://pandas.pydata.org/) - A fast, powerful, flexible and easy to use open source data analysis for manipulating datasets
